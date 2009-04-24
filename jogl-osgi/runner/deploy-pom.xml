@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.java.jogl.osgi.build</groupId>
+  <artifactId>deployment</artifactId>
+  <packaging>pom</packaging>
+  <name>net.java.jogl.osgi [org.cytoscape]</name>
+  <version>1.1.2</version>
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>Maven Repository Switchboard</name>
+      <url>http://repo1.maven.org/maven2</url>
+    </repository>
+  </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>net.java.jogl</groupId>
+      <artifactId>jogl-osgi</artifactId>
+      <version>1.1.2</version>
+      <type>bundle</type>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <properties>
+    <bundle.symbolicName>net.java.jogl.osgi</bundle.symbolicName>
+    <bundle.namespace>org.cytoscape</bundle.namespace>
+  </properties>
+</project>
